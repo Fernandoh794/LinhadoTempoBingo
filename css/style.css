@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(19, 31, 47);
+    text-align: center;
+}
+
+.container{
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.header{
+    flex:1;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.caixa{
+    background-color:rgb(58, 137, 255);
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+
+    /*centralizar texto*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 6em;
+    color: white;
+}
+
+.caixinhas{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(58, 137, 255);
+    border-radius: 10px;
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5vh;
+}
+
+.ultimosSelecionados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.caixinhas{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caixa h1{
+    color: white;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textinput {
+    margin-top: 5vh;
+    width: 15vw;
+    height: 4vh;
+}
+
+.button {
+    border: 0;
+    height: 5vh;
+    width: 5vw;
+    background-color: rgb(58, 137, 255) ;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.button:hover {
+    height: 6vh;
+    width: 6vw;
+    transition: 0.5s;
+}
+
+.caixinhas:hover {
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+
